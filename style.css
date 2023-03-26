@@ -17,13 +17,6 @@ li{
    list-style: none;
 }
 
-h1,h2{
-   color: black;
-}
-h3{
-   color: grey;
-}
-
 .btn{
    background: green;
    color: white;
@@ -83,6 +76,7 @@ td,th{
 .side-menu li:hover{
    background: white;
    color: green;
+   border: 2px solid greenyellow;
 }
 
 .side-menu .fas{
@@ -194,6 +188,14 @@ td,th{
    align-items: center;
    justify-content: space-around;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .content .cards .card:hover{
+   background: green;
+   width: 240px;
+   height: 140px;
+   color: white;
+   border: 2px solid greenyellow;
 }
 
 .container .content .cards .card .icon-case .fas{
