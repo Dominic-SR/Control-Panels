@@ -1,10 +1,11 @@
 import React from 'react'
+import './sidebar.css'
 
 function sidebar() {
   return (
     <div className='side-menu'>
         <div className='brand-name'>
-            Brand...
+            <h1>Brand</h1>
         </div>
         <ul>
             <li><span>Dashboard</span></li>
