@@ -5,6 +5,7 @@ function sidebar() {
   return (
     <div className='side-menu'>
         <div className='brand-name'>
+            <img src={process.env.PUBLIC_URL + "/logo.png"} height="100"/>
             <h1>Brand</h1>
         </div>
         <ul>
