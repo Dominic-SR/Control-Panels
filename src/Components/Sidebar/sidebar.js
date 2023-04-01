@@ -6,7 +6,10 @@ function sidebar() {
     <div className='side-menu'>
         <div className='brand-name'>
             {/* <img src={process.env.PUBLIC_URL + "/logo.png"} height="100"/> */}
-            <h1>Brand</h1>
+            <div className='header-layer'>
+            <i class="fab fa-bandcamp fa-spin"></i>
+            <h1> Brand</h1>
+            </div>
         </div>
         <ul>
         <li>
